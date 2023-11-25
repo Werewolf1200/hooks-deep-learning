@@ -29,6 +29,8 @@ export const CounterApp = () => {
               }
           
           >+1</button>
+
+          <hr />
       </>
   )
 }
