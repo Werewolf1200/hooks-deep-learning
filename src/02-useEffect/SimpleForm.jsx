@@ -57,6 +57,7 @@ export const SimpleForm = () => {
                 (username === 'Carlo2') && <Message />
             }
             
+            <hr />
       </>
   )
 }
