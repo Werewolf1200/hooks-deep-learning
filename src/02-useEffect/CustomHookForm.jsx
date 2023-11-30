@@ -2,7 +2,7 @@ import { useForm } from "../hooks/useForm";
 
 export const CustomHookForm = () => {
     
-    const { onInputChange, onResetForm, username, email, password } = useForm({
+    const { onInputChange, onResetForm, username, email, password } = useForm({ // ...formState desestructurado del form
         username: '',
         email: '',
         password: ''
